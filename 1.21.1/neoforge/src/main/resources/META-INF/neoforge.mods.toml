@@ -1,0 +1,36 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "helldivers_ping"
+version = "${version}"
+displayName = "Helldivers Ping"
+authors = "TeamDodoco"
+description = '''
+Helldivers 2 style team ping system. Ping blocks, entities and items for your scoreboard team.
+'''
+
+[[dependencies.helldivers_ping]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.helldivers_ping]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.helldivers_ping]]
+modId = "architectury"
+type = "required"
+versionRange = "[13.0.8,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[mixins]]
+config = "helldivers_ping.mixins.json"

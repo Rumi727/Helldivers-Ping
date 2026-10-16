@@ -1,0 +1,10 @@
+{
+  "key.categories.helldivers_ping": "Helldivers Ping",
+  "key.helldivers_ping.ping": "핑 / 긍정 반응",
+  "hud.helldivers_ping.by": "%s",
+  "hud.helldivers_ping.acknowledged": "» %s",
+  "hud.helldivers_ping.cancel": "취소",
+  "hud.helldivers_ping.acknowledge": "확인",
+  "hud.helldivers_ping.unacknowledge": "확인 취소",
+  "hud.helldivers_ping.server_missing": "이 서버에는 Helldivers Ping이 없습니다"
+}

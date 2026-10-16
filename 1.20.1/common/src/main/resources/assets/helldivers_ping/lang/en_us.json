@@ -1,0 +1,10 @@
+{
+  "key.categories.helldivers_ping": "Helldivers Ping",
+  "key.helldivers_ping.ping": "Ping / Acknowledge",
+  "hud.helldivers_ping.by": "%s",
+  "hud.helldivers_ping.acknowledged": "» %s",
+  "hud.helldivers_ping.cancel": "CANCEL",
+  "hud.helldivers_ping.acknowledge": "ACKNOWLEDGE",
+  "hud.helldivers_ping.unacknowledge": "UNDO",
+  "hud.helldivers_ping.server_missing": "Helldivers Ping is not installed on this server"
+}

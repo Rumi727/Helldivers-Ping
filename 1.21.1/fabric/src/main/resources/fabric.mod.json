@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "helldivers_ping",
+  "version": "${version}",
+  "name": "Helldivers Ping",
+  "description": "Helldivers 2 style team ping system. Ping blocks, entities and items for your scoreboard team.",
+  "authors": [
+    "TeamDodoco"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "kr.kro.teamdodoco.helldiversping.fabric.HelldiversPingFabric"
+    ]
+  },
+  "mixins": [
+    "helldivers_ping.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.21 <1.21.2",
+    "java": ">=21",
+    "architectury": ">=13.0.8",
+    "fabric-api": "*"
+  }
+}
